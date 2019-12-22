@@ -1,10 +1,10 @@
 *{
     box-sizing: border-box;
-    
+    color:#ffdca3;
 }
 
 body{
-    background:beige;
+    background:#3d7bb3;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -14,9 +14,12 @@ header{
     font-weight: 10px;
     font-family: 'Audiowide', cursive;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:baseline;
+    flex-direction: row;
+    text-align:center;
+
+}
+p{
+    text-align:center;
 }
 
 #quiz-mobile{
@@ -29,6 +32,7 @@ header{
     width: 100%;
     background-color: #555;
     overflow: auto;
+    color:white;
   }
   
   .icon-bar a {
@@ -37,7 +41,7 @@ header{
     text-align: center;
     padding: 12px 0;
     transition: all 0.3s ease;
-    color: white;
+    color: blue;
     font-size: 36px;
   }
   
