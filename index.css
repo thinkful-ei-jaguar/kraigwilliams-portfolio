@@ -16,11 +16,16 @@ body {
     
 
 
-
 }
+button:hover{
+    cursor:pointer;
+}
+
+
+
 .icon-bar a {
     
-    
+    width:30%;
     text-align: center;
     padding: 12px 0;
     /* transition: all 0.3s ease; */
@@ -170,5 +175,12 @@ button{
 
 
 @media screen and(max-width:1600px){
-    
+    body{
+        width:70%;
+        margin-right:200px;
+    }
+    .projects{
+        width:60%;
+
+    }
 }
