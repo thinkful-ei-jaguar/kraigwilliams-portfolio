@@ -2,16 +2,16 @@
     box-sizing: border-box;
     color: #ffdca3;
     text-decoration: none;
+   
 
-}
-#aboutme{
-    margin-bottom:60px;
 }
 
 body {
+    width:100%;
     background: #3d7bb3;
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     margin-left:10px;
     margin-right:10px;
@@ -29,20 +29,59 @@ body {
 }
 
 @media screen and (min-width:320px){
+   /* *{
+       display:flex;
+       flex-direction:column;
+   } */
+
+   #about-me{
+       margin-bottom:100px;
+       margin-right:20px;
+       margin-left:20px;
+       text-align:center;
+   }
+   body{
+       justify-content:center;
+       margin-left:10px;
+       margin-right:10px;
+   }
     img{
         width:60%;
+        text-align:center;
+        
     }
-    header{
+    header{ 
         text-align:center;
     }
+
+    .projects{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+    }
+   
+button{
+    border-radius:100px;
+    background:white;
+
+}
+
 }
 
 
 @media screen and (min-width:768px) {
-    h1 {
-        display: flex;
-        align-content: center;
+    
+    body{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    margin-left:50px;
+    margin-right:50px;
     }
+    
+    
     
     header {
         width: 100%;
@@ -51,7 +90,7 @@ body {
         display: flex;
         flex-direction: row;
         /* text-align:center; */
-        justify-content: space-between;
+        justify-content: space-around;
         align-content: baseline;
         align-items: baseline;
         /* margin-left:auto;
