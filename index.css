@@ -13,15 +13,34 @@ body {
     flex-direction: column;
     
     align-items: center;
-    margin-left:10px;
-    margin-right:10px;
+    
+
+
+
+}
+.icon-bar a {
+    
+    
+    text-align: center;
+    padding: 12px 0;
+    /* transition: all 0.3s ease; */
+    color: blue;
+    font-size: 20px;
 }
 
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+
 .icon-bar {
+    margin:0px;
     display: flex;
     justify-content: center;
     bottom: 0px;
-    position: fixed;
+    left:0px;
+    right:0px;
+    position:fixed;
     width: 100%;
     background-color: #555;
     /* overflow: auto; */
@@ -29,11 +48,7 @@ body {
 }
 
 @media screen and (min-width:320px){
-   /* *{
-       display:flex;
-       flex-direction:column;
-   } */
-
+   
    #about-me{
        margin-bottom:100px;
        margin-right:20px;
@@ -41,13 +56,19 @@ body {
        text-align:center;
    }
    body{
+       width:80%;
+       display:flex;
+       flex-direction:column;
        justify-content:center;
-       margin-left:10px;
-       margin-right:10px;
+       margin-left:20px;
+       margin-right:20px;
+       flex-wrap: wrap;
    }
     img{
         width:60%;
         text-align:center;
+        margin-left:auto;
+        margin-right:auto;
         
     }
     header{ 
@@ -59,9 +80,21 @@ body {
         display:flex;
         flex-direction:column;
         align-items:center;
-        
+        flex-wrap: wrap;
+        text-align:center;
     }
-   
+   #project1{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+   }
+   #project2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
 button{
     border-radius:100px;
     background:white;
@@ -72,7 +105,10 @@ button{
 
 
 @media screen and (min-width:768px) {
-    
+    .menu{
+        display:none;
+    }
+
     body{
         width:100%;
         display:flex;
@@ -110,19 +146,7 @@ button{
    
     
     
-    .icon-bar a {
-    
-        width: 20%;
-        text-align: center;
-        padding: 12px 0;
-        transition: all 0.3s ease;
-        color: blue;
-        font-size: 20px;
-    }
-    
-    .icon-bar a:hover {
-        background-color: #000;
-    }
+  
     
     
 
@@ -130,8 +154,8 @@ button{
     .projects {
         display: flex;
         flex-direction: row;
-        align-content: flex-start;
-        flex-wrap: nowrap;
+        justify-content: center;
+         flex-wrap:wrap;
     }
 
     /*body{
