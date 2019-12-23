@@ -32,6 +32,9 @@ body {
     img{
         width:60%;
     }
+    header{
+        text-align:center;
+    }
 }
 
 
