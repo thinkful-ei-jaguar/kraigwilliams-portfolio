@@ -29,6 +29,9 @@ body {
 
 
 }
+.menu{
+    display:none;
+}
 
 img{
     margin-bottom:20px;
