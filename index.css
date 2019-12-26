@@ -14,6 +14,7 @@ h2{
 p {
     background:black;
     border-radius: 200px;
+    padding:10px;
 }
 header {
     font-family: 'Audiowide', cursive;
