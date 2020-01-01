@@ -13,8 +13,10 @@ h2{
 
 p {
     background:black;
-    border-radius: 200px;
-    padding:10px;
+    border-radius: 150px;
+    padding:30px 40px;
+    
+    
 }
 header {
     font-family: 'Audiowide', cursive;
