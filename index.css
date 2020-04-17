@@ -119,8 +119,10 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        margin-left:auto;
+        margin-right:auto;
         flex-wrap: wrap;
         overflow:auto;
     }
@@ -178,8 +180,10 @@ button:hover{
         widows: 80%;
         display: flex;
         flex-direction: column;
-        margin-left: 50px;
-        margin-right: 50px;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        margin-left:auto;
+        margin-right:auto;
     }
 
 
@@ -232,7 +236,9 @@ font-weight:bolder;
 @media screen and(min-width:1600px) {
     body {
         width: 70%;
-        margin-right: 200px;
+        /* margin-right: 200px; */
+        margin-left:auto;
+        margin-right:auto;
     }
 
     .projects {
